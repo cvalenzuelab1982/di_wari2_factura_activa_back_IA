@@ -1,0 +1,15 @@
+20260306 | Creacion de base de datos, en servidor Apolo base de datos: Postgre
+
+CREATE DATABASE directo_wari_sunat_fe_dev
+WITH 
+OWNER = postgres
+ENCODING = 'UTF8'
+LC_COLLATE = 'en_US.utf8'
+LC_CTYPE = 'en_US.utf8'
+TEMPLATE = template0;
+
+==================================================================================================
+
+
+20260309 | SP OBTENER_DATA_CLIENTE_X1 deja de usarse paso a EF como consulta
+

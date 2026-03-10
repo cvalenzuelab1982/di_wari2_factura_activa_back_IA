@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="12.1.1" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
+    <PackageReference Include="Mapster" Version="7.4.0" />
+    <PackageReference Include="Mapster.DependencyInjection" Version="1.0.1" />
+    <PackageReference Include="MediatR" Version="14.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Directo.Wari.Domain\Directo.Wari.Domain.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Common\Constants\" />
+    <Folder Include="Common\Responses\" />
+    <Folder Include="Features\ConsultasDocumentos\Cmd\ConsultaDocumentoCrear\" />
+    <Folder Include="Features\ConsultasDocumentos\Cmd\" />
+    <Folder Include="Features\HttpUtil\Cmd\" />
+    <Folder Include="Features\HttpUtil\Dtos\" />
+  </ItemGroup>
+
+</Project>
